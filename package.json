@@ -1,0 +1,40 @@
+{
+  "name": "blizzbot",
+  "version": "0.1.0",
+  "description": "Blizzar bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvegerano/blizzbot.git"
+  },
+  "keywords": [
+    "blizzard",
+    "wow",
+    "world",
+    "of",
+    "warcraft",
+    "overwatch",
+    "hos",
+    "heroes",
+    "of",
+    "the",
+    "storm",
+    "discord",
+    "bot",
+    "discord",
+    "bot"
+  ],
+  "author": "Luis Vegerano",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lvegerano/blizzbot/issues"
+  },
+  "homepage": "https://github.com/lvegerano/blizzbot#readme",
+  "dependencies": {
+    "blizzard.js": "1.6.0",
+    "discord.js-commando": "0.9.0"
+  }
+}
