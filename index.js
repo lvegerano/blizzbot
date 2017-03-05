@@ -11,6 +11,11 @@ if (!owner || !discordToken || !battlenetKey) {
   process.exit();
 }
 
-Client.run();
+Client.run()
+  .catch((err) => {
+    console.error('There was an error starting the client.');
+    console.error(err);
+    process.exit();
+  });
 
 

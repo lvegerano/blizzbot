@@ -28,7 +28,7 @@ class ProgressionCommand  extends Commando.Command {
       const embed = {};
 
       embed.title = latestRaid.name;
-      embed.description = `Raid progression for ${response.name}`;
+      embed.description = `Raid progression for ${response.data.name}`;
       embed.fields = latestRaid.bosses.map((boss) => {
         const fieldObj = {};
         fieldObj.name = boss.name;
